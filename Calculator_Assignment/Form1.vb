@@ -44,20 +44,20 @@
 
     End Sub
 
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click 'This is button is used by the user to clear all Inputs and Outputs
 
         txtInput1.Clear()
         txtInput2.Clear()
         txtAns.Clear()
     End Sub
 
-    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click 'This is button is used by the user to close program
 
         Close()
 
     End Sub
 
-    Private Sub btnAll_Click(sender As Object, e As EventArgs) Handles btnAll.Click
+    Private Sub btnAll_Click(sender As Object, e As EventArgs) Handles btnAll.Click 'This is button is used by the user to run all functions in the program
 
         btnAdd_Click(sender, e)
         btnSub_Click(sender, e)
