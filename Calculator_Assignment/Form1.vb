@@ -44,7 +44,7 @@
 
     End Sub
 
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click 'This is button is used by the user to clear all Inputs and Outputs
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click 'This is utton is used by the user to clear all Inputs and Outputs
 
         txtInput1.Clear()
         txtInput2.Clear()
