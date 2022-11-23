@@ -22,7 +22,7 @@
         n2 = txtInput2.Text()
 
         '--Process
-        total = n1 + n2
+        total = n1 - n2
 
         '--Ouput
         txtAns.Text() = total
