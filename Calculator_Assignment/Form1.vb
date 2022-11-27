@@ -64,4 +64,8 @@
         btnMulti_Click(sender, e)
 
     End Sub
+
+    'What the hell I'm able to code on my Ipad with the my code editor/ IDE of choice.
+    'XD
+
 End Class
